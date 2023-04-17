@@ -58,8 +58,8 @@ class BaseSeeder extends Seeder
 
         $mentor = Mentor::create(
             [
-                'name' => 'chutatbach9',
-                'email' => 'chutatbach9@gmail.com',
+                'name' => 'dangthanhthuy9',
+                'email' => 'dangthanhthuy9@gmail.com',
                 'email_verified_at' => now(),
                 'avatar' => 'images/avatar_icon.jpg',
                 'number_phone' => fake()->phoneNumber(),
@@ -68,7 +68,7 @@ class BaseSeeder extends Seeder
                 'remember_token' => null,
                 'address' => 'hà nội',
                 'about_me' => fake()->text(700),
-                'social_networks' => 'https://www.facebook.com/bach.chu.3762584/,https://www.instagram.com/chutatbach2002/ ,twitter,linkedin',
+                'social_networks' => 'https://www.facebook.com/bach.chu.3762584/,https://www.instagram.com/dangthanhthuy2002/ ,twitter,linkedin',
                 'educations' => 'dạy tại cao đẳng fpt',
                 'specializations' => 'html,css,php',
                 // 'skills' => 'html,css,php',
@@ -81,8 +81,8 @@ class BaseSeeder extends Seeder
 
         $mentor = Mentor::create(
             [
-                'name' => 'chutatbach1',
-                'email' => 'chutatbach1@gmail.com',
+                'name' => 'dangthanhthuy1',
+                'email' => 'dangthanhthuy1@gmail.com',
                 'email_verified_at' => now(),
                 'avatar' => 'images/avatar_icon.jpg',
                 'number_phone' => fake()->phoneNumber(),
@@ -91,7 +91,7 @@ class BaseSeeder extends Seeder
                 'remember_token' => null,
                 'address' => 'hà nội',
                 'about_me' => fake()->text(700),
-                'social_networks' => 'https://www.facebook.com/bach.chu.3762584/,https://www.instagram.com/chutatbach2002/ ,twitter,linkedin',
+                'social_networks' => 'https://www.facebook.com/bach.chu.3762584/,https://www.instagram.com/dangthanhthuy2002/ ,twitter,linkedin',
                 'educations' => 'dạy tại cao đẳng fpt',
                 'specializations' => 'html,css,php',
                 'cate_course_id' => rand(1,3),
@@ -112,7 +112,7 @@ class BaseSeeder extends Seeder
                 'remember_token' => null,
                 'address' => 'hà nội',
                 'about_me' => fake()->text(700),
-                'social_networks' => 'https://www.facebook.com/bach.chu.3762584/,https://www.instagram.com/chutatbach2002/ ,twitter,linkedin',
+                'social_networks' => 'https://www.facebook.com/bach.chu.3762584/,https://www.instagram.com/dangthanhthuy2002/ ,twitter,linkedin',
                 'educations' => 'dạy tại cao đẳng fpt',
                 'specializations' => '',
                 'years_in_experience' => 10,
@@ -133,7 +133,7 @@ class BaseSeeder extends Seeder
                 'remember_token' => null,
                 'address' => 'hà nội',
                 'about_me' => fake()->text(700),
-                'social_networks' => 'https://www.facebook.com/bach.chu.3762584/,https://www.instagram.com/chutatbach2002/ ,twitter,linkedin',
+                'social_networks' => 'https://www.facebook.com/bach.chu.3762584/,https://www.instagram.com/dangthanhthuy2002/ ,twitter,linkedin',
                 'educations' => 'dạy tại cao đẳng fpt',
                 'specializations' => '',
                 'years_in_experience' => 10,

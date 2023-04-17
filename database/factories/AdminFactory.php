@@ -20,7 +20,7 @@ class AdminFactory extends Factory
     {
         return [
             'name' => fake()->name(),
-            'email' => 'chutatbach9@gmail.com',
+            'email' => 'dangthanhthuy9@gmail.com',
             'email_verified_at' => now(),
             'avatar' => 'placeholder.png',
             'number_phone' => fake()->phoneNumber(),
